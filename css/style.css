@@ -1,7 +1,6 @@
 body {
     background: darksalmon;
 }
-
 .fill {
     background-image: url('http://source.unsplash.com/random/150x150');
     position: relative;
@@ -11,7 +10,6 @@ body {
     left: 5px;
     cursor: pointer;
 }
-
 .empty {
     display: inline-block;
     height: 160px;
@@ -20,16 +18,13 @@ body {
     border: 3px salmon solid;
     background-color: white;
 }
-
 .hold {
     border: solid #ccc 4px;
 }
-
 .hovered {
     background: #f4f4f4;
     border-style: dashed;
 }
-
 .invisible {
     display: none;
 }

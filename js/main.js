@@ -13,9 +13,8 @@ for (const empty of empties) {
     empty.addEventListener('drop', dragDrop);
 }
 
-
 // Drag Functions
-function dragStart() {    // appending the hold class
+function dragStart() {
     this.className += ' hold';
     setTimeout(() => this.className = 'invisible', 0);
 }
